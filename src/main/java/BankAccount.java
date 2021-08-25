@@ -24,7 +24,7 @@ public class BankAccount {
 
     public void withdraw(double amount) {
         if ( amount > this.balance ) {
-            throw new ArithmeticException("Invalid amount, Balance is:" + this.getBalance());
+            throw new ArithmeticException("Invalid amount, Balance is: " + this.getBalance());
         } else {
             this.balance -= amount;
         }
