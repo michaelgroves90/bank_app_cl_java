@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BankAccountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-24T16:51:44" hostname="DESKTOP-R44RT2G" time="0.022">
+<testsuite name="BankAccountTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-25T14:39:43" hostname="DESKTOP-R44RT2G" time="0.037">
   <properties/>
-  <testcase name="testAccountHoldsABalance()" classname="BankAccountTest" time="0.022"/>
+  <testcase name="testWithdrawalsRemoveFromAccountBalance()" classname="BankAccountTest" time="0.024"/>
+  <testcase name="testAccountHoldsABalance()" classname="BankAccountTest" time="0.001"/>
+  <testcase name="testAccountCannotBeWithdrawnBelowZero()" classname="BankAccountTest" time="0.008"/>
+  <testcase name="testDepositsAddToAccountBalance()" classname="BankAccountTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
