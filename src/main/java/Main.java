@@ -7,7 +7,7 @@ public class Main {
         System.out.println(account.getBalance());
         System.out.println(account.getTransactionHistory());
         try {
-            account.withdraw(1101, "2021, 2, 12");
+            account.withdraw(1301, "2021, 2, 12");
         } catch (ArithmeticException err) {
             System.out.println(err);
         }

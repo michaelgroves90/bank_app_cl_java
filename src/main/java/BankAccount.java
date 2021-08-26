@@ -2,28 +2,28 @@ import java.util.ArrayList;
 
 public class BankAccount {
 
-    public ArrayList<Object> transactionHistory;
-    public double balance;
+    ArrayList<Transaction> transactionHistory;
+    double balance;
 
-    public BankAccount() {
+    BankAccount() {
         this.transactionHistory = new ArrayList<>();
         this.balance = 0;
     }
 
-    public BankAccount(double initialBalance) {
+    BankAccount(double initialBalance) {
         this.transactionHistory = new ArrayList<>();
         this.balance = initialBalance;
     }
 
-    public double getBalance() {
+    double getBalance() {
         return this.balance;
     }
 
-    public void setBalance(double balance) {
+    void setBalance(double balance) {
         this.balance = balance;
     }
 
-    public ArrayList<Object> getTransactionHistory() {
+    ArrayList<Transaction> getTransactionHistory() {
         return this.transactionHistory;
     }
 
